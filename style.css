@@ -1,0 +1,1241 @@
+* {
+    /* border: solid 1px red; */
+    margin: 0;
+    padding: 0;
+}
+#example-1 {
+    height: 400px
+  }
+
+.twitr {
+    position: absolute;
+    color: #1D9BF0;
+    font-size: 30px;
+    width: 100vh;
+    top: 30%;
+    left: 41%;
+    cursor: cell;
+}
+.emoji-picker-container{
+    border: none !important;
+}
+.twitr p {
+    align-items: center;
+    text-align: center;
+}
+
+#texte {
+    position: absolute;
+    top: 14%;
+    left: 42%;
+    color: rgb(165, 2, 2);
+    font-weight: bold;
+    font-family: 'Bloody', sans-serif;
+    font-size: 100px;
+    cursor: cell;
+
+    /* opacity: 0; */
+}
+
+.twidead {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    cursor: cell;
+
+
+}
+
+.d-flex a {
+    text-decoration: none;
+}
+
+#kalash {
+    position: absolute;
+    top: 64%;
+    left: 71%;
+}
+
+body {
+    /* background-image: url(./assets/istockphoto-1055256868-640x640-removebg-preview.png); */
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    background-color: #15202B !important;
+    margin: 0;
+    padding: 0;
+}
+body.night-mode {
+    background-color: #10678a !important;
+    color: #000000 !important;
+  }
+  
+
+/* background-color: black; */
+/* .bulabulabula {
+    background-color: #15202B;
+} */
+
+input[type="text"],
+textarea {
+    background-color: #15202B;
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: large;
+    height: 2.5em;
+    margin: 10px;
+}
+
+
+
+.trending input[type="text"],
+textarea {
+    background-color: #273340;
+    border: none;
+    border-radius: 25px;
+    width: 100vh;
+    color: white;
+    font-size: 16px;
+    padding-left: 2em;
+    height: 5vh;
+
+}
+
+/* A REFAIRE */
+.trending input[type="text"]:active,
+.trending input[type="text"]:focus,
+textarea {
+    background-color: #15202B;
+    border: #1D9BF0 1px solid;
+    border-radius: 25px;
+    width: 100%;
+    color: white;
+}
+
+.mid textarea:focus,
+input:focus {
+    outline: none;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    justify-content: left;
+}
+
+.mid {
+    border-radius: 2px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-bottom: solid 1px grey;
+}
+
+.mid2 {
+    border-radius: 5px;
+    padding-bottom: 1px;
+    width: 100%;
+
+}
+
+.tweeter {
+    border-top: solid 1px grey;
+    width: 100%;
+
+}
+
+.mid .accueil {
+    padding: 1em;
+}
+
+.mid p {
+    margin: 5px;
+
+}
+
+.culll {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-right: solid 1px grey;
+}
+
+header h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 8em;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(28, 43, 53);
+    color: white;
+    border-radius: 30px;
+}
+
+.activee {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    display: flex;
+}
+
+.buttontweet button {
+    border-radius: 25px;
+    width: 15em;
+    color: white;
+    background-color: #1A8CD8;
+    border: none;
+    height: 3.2em;
+    font-weight: bold;
+}
+
+.tweeter {
+    display: flex;
+    padding-top: 1em;
+    justify-content: space-evenly;
+}
+
+
+.col button {
+    border-radius: 25px;
+    width: 7em;
+    color: white;
+    background-color: #1A8CD8;
+    border: none;
+    height: 2em;
+    font-weight: bold;
+}
+
+.imagen {
+    color: #1A8CD8;
+}
+
+#sticky {
+    z-index: 10000;
+    position: sticky;
+    top: 0px;
+    background-color: #15202B;
+    padding: 0.5em;
+    margin-bottom: 0.9em;
+}
+
+.trending {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: #15202B;
+    padding-left: 0.5em;
+    ;
+    margin-right: 1em;
+    padding-bottom: 0px;
+    width: 37vh;
+}
+
+.rightside {
+    height: 100%;
+    border-left: solid 1px grey;
+}
+
+#cainteuuw {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.pourvous {
+    margin-left: 1em;
+    background-color: #1E2732;
+    border-radius: 30px;
+    height: auto;
+    width: 35vh;
+    padding: 1em 0em;
+    margin-bottom: 1em;
+}
+
+.pourvous h5 {
+    color: white;
+    padding-top: 0.3em;
+    padding-left: 1em;
+
+}
+
+.champtweet .pseudo {
+    padding: 0;
+    margin: 0;
+}
+
+.champtweet {
+    border-bottom: solid 1px grey;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 1em;
+
+}
+
+.champtweet:hover {
+    background-color: #252E38;
+    cursor: pointer;
+}
+
+#comment:hover {
+    color: #1D9BF0;
+}
+
+.inter {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(214, 213, 213);
+    margin-bottom: 0em;
+    width: 70%;
+}
+
+.inter a {
+    text-decoration: none;
+    color: rgb(214, 213, 213);
+}
+
+.inter button {
+    border: none;
+    background-color: transparent;
+}
+
+.button-twett {
+    border-top: solid gray 1px;
+}
+
+progress {
+    width: 3em;
+
+}
+
+.borderx {
+    width: 100%;
+    border-bottom: 1px solid grey;
+    margin-bottom: 1em;
+}
+
+.indice {
+    font-style: italic;
+    font-size: smaller;
+    color: grey;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rt{
+    font-size: smaller;
+    color: grey;
+    padding: 0px;
+    padding-bottom: 0.3em;
+    padding-left: 3em;
+    margin: 0px;
+    display: flex;
+}
+
+.rt i{
+    padding-right: 0.3em;
+}
+
+
+.pourvous .toptendance p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.toptendance {
+    margin-bottom: 0.8em;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.toptendance:hover {
+    background-color: #232e38;
+    cursor: pointer;
+
+}
+
+.indice i {
+    padding-right: 1em;
+}
+
+.pseudo,
+.arobase {
+    display: flex;
+}
+
+.arobase,
+.temporis {
+    position: relative;
+    top: 0.2em;
+    left: 0.1em;
+    font-style: normal;
+}
+
+.temporis {
+    padding-left: 0.2em;
+}
+
+.row-test {
+    margin-top: 0;
+    padding-left: 33px;
+}
+
+#comment {
+
+    display: flex;
+    position: relative;
+    color: rgb(214, 213, 213);
+    transition: all 0.3s ease-in-out;
+    height: 25px;
+}
+
+.resize {
+    image-resolution: 300dpi;
+}
+
+#comment:hover {
+
+    color: #1d88cf;
+    background-color: #154d728c;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+#comment:hover i::before {
+
+    opacity: 1;
+    transform: scale(1);
+    height: 25px;
+
+}
+
+#comment i {
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+#deathtwett {
+
+    display: flex;
+    position: relative;
+    color: rgb(214, 213, 213);
+    transition: all 0.3s ease-in-out;
+    height: 25px;
+
+
+}
+#undeathtwett {
+
+    display: flex;
+    position: relative;
+    color: rgb(106, 255, 114);
+    transition: all 0.3s ease-in-out;
+    height: 25px;
+
+
+}
+
+#deathtwett:hover {
+
+    color: rgb(106, 255, 114);
+    background-color: rgba(4, 143, 39, 0.192);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+#deathtwett:hover i::before {
+
+    opacity: 1;
+    transform: scale(1);
+    height: 25px;
+
+}
+
+.DEGAGE {
+    margin-left: 0.7em;
+}
+
+#deathtwett i {
+
+    transition: all 0.3s ease-in-out;
+}
+
+#like {
+    position: relative;
+    color: rgb(214, 213, 213);
+    transition: all 0.3s ease-in-out;
+    height: 25px;
+    display: flex;
+}
+
+
+#unlike {
+    position: relative;
+    color: rgb(254, 0, 0);
+    transition: all 0.3s ease-in-out;
+    height: 25px;
+    display: flex;
+}
+
+#like:hover {
+
+    color: rgb(255, 40, 51);
+    background-color: rgba(141, 6, 6, 0.24);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 4px;
+
+
+}
+
+#like:hover i::before {
+
+    opacity: 1;
+    transform: scale(1);
+    height: 25px;
+    padding-right: 20px;
+
+
+}
+
+#like i {
+    transition: all 0.3s ease-in-out;
+}
+
+#share {
+
+    display: inline-block;
+    position: relative;
+    color: rgb(214, 213, 213);
+    transition: all 0.3s ease-in-out;
+    height: 25px;
+
+
+}
+
+#share:hover {
+
+    color: #1D9BF0;
+    background-color: #65c1ffc7;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 4px;
+
+}
+
+#share:hover i::before {
+
+    opacity: 1;
+    transform: scale(1);
+    height: 25px;
+
+}
+
+#share i {
+
+    transition: all 0.3s ease-in-out;
+
+}
+
+.pforicone {
+
+    padding-left: 5px;
+
+}
+
+/* __________________________________________PROFIL_________________________________ */
+
+#nbtweetprof {
+    margin-top: 0%;
+}
+
+.profmid {
+    margin-bottom: 0;
+}
+
+.banniere img {
+    width: 100%;
+    height: 15em;
+}
+
+.ppprofil {
+    z-index: 1;
+    position: relative;
+    bottom: 4%;
+    left: 5%;
+    background-color: #15202B;
+    border-radius: 5rem;
+    width: 8.6rem !important;
+    height: 8.5rem;
+
+}
+
+.ppprofil img {
+    margin-left: 4px;
+}
+
+.pid {
+    position: relative;
+    bottom: 4%;
+    left: 2%;
+
+}
+
+.pid .pseudo {
+    font-size: 24px;
+    font-weight: bold;
+
+    padding: 0;
+    margin: 0;
+}
+
+.pid .arobase {
+    font-size: 18px;
+}
+
+.bio {
+    margin-top: 1em;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.joined {
+    color: grey;
+    padding-right: 1em;
+    font-size: 18px;
+}
+
+.pid ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 0;
+    font-size: 22px;
+}
+
+.pid li {
+    color: white;
+
+}
+
+
+.activetw {
+    border-bottom: #1A8CD8 4px solid;
+    border-radius: 3px;
+}
+
+.pid li:hover {
+    background-color: #252E38;
+    cursor: pointer;
+}
+
+#tweetprofile {
+    position: relative;
+    bottom: 4%
+}
+
+.lastimg {
+    padding: 0;
+    width: 35.4vh;
+    border: solid 1px rgba(128, 128, 128, 0.493);
+    border-radius: 25px;
+}
+
+
+#hautg {
+    border-top-left-radius: 25px;
+}
+
+#hautd {
+    border-top-right-radius: 25px;
+}
+
+#basg {
+    border-bottom-left-radius: 25px;
+}
+
+#basd {
+    border-bottom-right-radius: 25px;
+}
+
+.follower {
+    display: flex;
+}
+
+.follower p {
+    margin-right: 20px;
+}
+.follower a{
+    text-decoration: none;
+    color: white;
+    margin-right: 2px;
+}
+.follower a:hover{
+    text-decoration: none;
+    color: white;
+    margin-right: 2px;
+}
+.suivre {
+    display:flex;
+    width: 100%;
+    justify-content: right;
+}
+.suivre button{
+    position: relative;
+    bottom: 15rem;
+    right: 1em;
+    background-color: white;
+    font-weight: light;
+    color:#1E2732;
+    width: 80px;
+}
+.unfo {
+    display:flex;
+    width: 100%;
+    justify-content: right;
+}
+.unfo button{
+    position: relative;
+    bottom: 15rem;
+    right: 1em;
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    font-weight: light;
+    border: 2px solid white;
+
+
+}
+.modal-class {
+    background-color: #15202B;
+    height: 300px;
+    position: relative;
+    border-radius: 25px;
+    border: solid 1px black;
+
+}
+
+.button-twett-modal {
+    border-top: solid gray 1px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.buttonlog button {
+    border-radius: 25px;
+    width: 15em;
+    color: black;
+    background-color: white;
+    border: none;
+    height: 3.2em;
+    font-weight: bold;
+}
+
+.new {
+    margin-left: 1em;
+    background-color: #1E2732;
+    border-radius: 30px;
+    height: auto;
+    width: 35vh;
+    padding: 1em 0em;
+    text-align: center;
+
+}
+
+.new h5 {
+    color: white;
+    padding-top: 0.3em;
+
+}
+
+.lastimg .d-flex img {
+    image-resolution: from-image 300dpi;
+    width: 111px;
+    height: 111px;
+}
+
+/* _____________________________________________EXPLORER______________________________________________ */
+
+#explorerid {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#explorerclass {
+    padding: 0;
+    border-bottom: none;
+}
+
+#explorerid input {
+    height: 3em;
+    width: 80%;
+}
+
+#explorerid i {
+    color: white;
+    font-size: 20px;
+    padding-top: 1.1em;
+    padding-bottom: auto;
+}
+
+.voirplus {
+    display: none;
+}
+
+#voirplusid {
+    color: rgb(0, 81, 255);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#voirmoinsid {
+    color: rgb(0, 81, 255);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* ______________________________________________FOLLOWERS/FOLLOWING_______________________________________________ */
+
+.btnfollowers{
+    width: 6em !important;
+    height: 2em !important;
+}
+
+.buttonlog i {
+    margin-left: 1em;
+    color: rgb(182, 182, 182);
+}
+
+.btnunfollow{
+    width: 6em !important;
+    height: 2em !important;
+    color: white !important;
+    background-color: transparent !important;
+    border: grey 2px solid !important;
+}
+
+/************* MODAL ****************/
+
+.modal-co{
+    color: white;
+    background-color: #15202B !important;
+
+}
+
+.btn-close-white {
+    color:white;
+    background-color:white;
+    border-color:white;
+}
+
+.logo-modal{
+    width: 50px;
+    height: 50px;
+
+}
+
+.body-modal{
+    height: 300px;
+    
+}
+.modal-content{
+    background-color: transparent !important;
+}
+
+#bluebird{
+    background-color: #15202B !important;
+    border-radius: 25px;
+    border: solid 1px black;
+}
+
+.button-modal-co button{
+    border-radius: 25px;
+    width: 15em;
+    color:black;
+    background-color: white;
+    border: none;
+    height: 3.2em;
+    font-weight: bold;
+}
+
+/************* PAGE MESSAGE ****************/
+
+.champmessage .pseudo{
+    padding: 0;
+    margin: 0;
+}
+
+.champmessage{
+    text-decoration: none;
+    margin-bottom: 1em;
+
+}
+
+.champmessage:hover{
+    background-color: #252E38;
+    cursor:pointer;
+    border-right:solid 2px #1A8CD8;
+}
+
+.mid3 {
+    margin-left: -45px;
+    margin-right: -45px;
+    padding-bottom: 1px;
+
+}
+
+.trending-message {
+
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: #15202B;
+    width:57vh;
+
+}
+
+.right-message {
+
+    height: 100%;
+    border-left: solid 1px grey;
+    justify-content: center;
+    
+}
+
+.center{
+
+    position: relative;
+    top: 37vh;
+    left:25vh;
+    width: 300px;;
+
+}
+
+.button-message button {
+    border-radius: 25px;
+    width: 15em;
+    color:white;
+    background-color: #1A8CD8;
+    border: none;
+    height: 3.2em;
+    font-weight: bold;
+}
+
+/************* MODAL ****************/
+
+.modal-class{
+    background-color: #15202B;
+    height: 400px;
+    position: relative;
+
+}
+
+.form-control{
+    color: white !important;
+}
+
+.button-twett-modal{
+    border-top: solid gray 1px;
+    position: absolute; bottom: 20px; left: 20px; right:20px;
+}
+
+.buttonlog button {
+    border-radius: 25px;
+    width: 15em;
+    color:black;
+    background-color: white;
+    border: none;
+    height: 3.2em;
+    font-weight: bold;
+}
+
+.new {
+    margin-left: 1em;
+    background-color: #1E2732;
+    border-radius: 30px;
+    height: auto;
+    width: 35vh;
+    padding: 1em 0em;
+}
+
+.new h5 {
+    color: white;
+    padding-top: 0.3em;
+    padding-left: 1em;
+
+}
+
+/************* MODAL CONNEXION ****************/
+
+.modal-co{
+    color: white;
+    background-color: #15202B !important;
+
+}
+
+.btn-close-white {
+    color:white;
+    background-color:white;
+    border-color:white;
+}
+
+.logo-modal{
+    width: 50px;
+    height: 50px;
+
+}
+
+.body-modal{
+    height: 300px;
+    
+}
+
+.button-modal-co button{
+    border-radius: 25px;
+    width: 15em;
+    color:black;
+    background-color: white;
+    border: none;
+    height: 3.2em;
+    font-weight: bold;
+}
+
+/************* PAGE MESSAGE ****************/
+
+.champmessage .pseudo{
+    padding: 0;
+    margin: 0;
+}
+
+.champmessage{
+    text-decoration: none;
+    margin-bottom: 1em;
+
+}
+
+.champmessage:hover{
+    background-color: #252E38;
+    cursor:pointer;
+    border-right:solid 2px #1A8CD8;
+}
+
+.mid3 {
+    margin-left: -45px;
+    margin-right: -45px;
+    padding-bottom: 1px;
+
+}
+
+.trending-message {
+
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: #15202B;
+    width:57vh;
+
+}
+
+.right-message {
+
+    height: 100%;
+    border-left: solid 1px grey;
+    justify-content: center;
+    
+}
+
+.center{
+
+    position: relative;
+    top: 37vh;
+    left:25vh;
+    width: 300px;;
+
+}
+
+.button-message button {
+    border-radius: 25px;
+    width: 15em;
+    color:white;
+    background-color: #1A8CD8;
+    border: none;
+    height: 3.2em;
+    font-weight: bold;
+}
+
+/***PAGE CONFIRMATION EMAIL**/
+
+.logo-inscription{
+    width: 100px;
+    height: 100px;
+}
+
+.inscenter {
+    padding-top: 25vh;
+    padding-left: 72vh;
+    height: 100%;
+    
+}
+
+.centeremail{
+
+  
+    width: 500px;
+
+}
+
+.button-ins button {
+    border-radius: 25px;
+    width: 15em;
+    color:white;
+    background-color: #1A8CD8;
+    border: none;
+    height: 3.2em;
+    font-weight: bold;
+}
+
+/****************** MODAL INSCRIPTION *********************/
+
+.modal-re{
+    color: white;
+    background-color: #15202B !important;
+    width:700px;
+
+}
+
+.btn-close-white {
+    color:white;
+    background-color:white;
+    border-color:white;
+}
+
+.logo-modal{
+    width: 50px;
+    height: 50px;
+
+}
+
+#inscription{
+    height: 400px;
+    padding-top:5vh;
+}
+
+
+.button-modal-co button{
+    border-radius: 25px;
+    width: 15em;
+    color:black;
+    background-color: white;
+    border: none;
+    height: 3.2em;
+    font-weight: bold;
+}
+
+.ligne{
+    padding-top: 7vh;
+}
+
+
+.loader {
+    --height-of-loader: 4px;
+    --loader-color: #0071e2;
+    width: 60%;
+    height: var(--height-of-loader);
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.2);
+    position: relative;
+    left: 12vh; 
+   }
+   
+   .loader::before {
+    content: "";
+    position: absolute;
+    background: var(--loader-color);
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-radius: 30px;
+    animation: moving 1s ease-in-out infinite;
+    ;
+   }
+   
+   @keyframes moving {
+    50% {
+     width: 100%;
+    }
+   
+    100% {
+     width: 0;
+     right: 0;
+     left: unset;
+    }
+}
+
+
+#bouratata{
+    width: 100%;
+}
+
+.form-control option{
+    color: black !important;
+}
+.bouton-edit{
+    border-radius: 25px;
+    width: 15em;
+    color:black;
+    border: none;
+    height: 3.2em;
+    font-weight: bold;
+}
